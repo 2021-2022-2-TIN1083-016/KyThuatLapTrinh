@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
+  printf("dat chao cac ban");
 }
 void Member_02(){
 }
