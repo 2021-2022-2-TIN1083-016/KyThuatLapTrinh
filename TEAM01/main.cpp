@@ -3,7 +3,7 @@
 void Member_01(){
 }
 void Member_21T1020468(){
-  printf "toi la Lan" 
+  printf "toi la Lan chicken "; 
 }
 void Member_03(){
 }
