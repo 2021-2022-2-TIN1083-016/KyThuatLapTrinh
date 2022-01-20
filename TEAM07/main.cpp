@@ -6,6 +6,7 @@ void Member_02(){
   printf("nguyễn viết hùng fb Hùng Nguyễn kết bạn lập nhóm trao đổi nghe mn!!");
 }
 void Member_03(){
+  printf("Nguyễn Thị Bảo Ngọc");
 }
 void Member_04(){
   
