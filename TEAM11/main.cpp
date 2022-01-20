@@ -3,8 +3,10 @@
 void Member_01(){
 }
 void Member_02(){
+  printf("helo mn, minh là member 2\n");
 }
 void Member_03(){
+  printf("helo mn, minh là member 3\n");
 }
 void Member_04(){
   

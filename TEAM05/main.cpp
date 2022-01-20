@@ -1,11 +1,15 @@
 #include <stdio.h>
 
 void Member_01(){
+  printf("Phan Le Gia Phuc\n");
 }
 void Member_02(){
+  printf(" toi la HUY \n");
 }
 void Member_03(){
+  printf("Hoang Thanh Tung");
 }
+
 void Member_04(){
   
 }
