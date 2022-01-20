@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
+  printf("sieu nhan");
 }
 void Member_02(){
   printf("Nguyen Xuan Cuong");
