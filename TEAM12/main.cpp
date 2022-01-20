@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
-      printf("Hello member 1")
+      printf("Hello member 1");
 }
 void Member_02(){
 }
