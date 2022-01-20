@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 void Member_01(){
-  printf("Phan Le Gia Phuc\n");
+  printf("Phan Le Gia Phuc");
 }
 void Member_02(){
+  printf(" toi la HUY \n");
 }
 void Member_03(){
 }
