@@ -7,7 +7,7 @@ void Member_02(){
   printf("Khanh");
 }
 void Member_03(){
-  printf("tran ngoc anh toan");
+  printf("Toan");
 }
 
 int main(int argc, const char** argv) {
@@ -15,6 +15,5 @@ int main(int argc, const char** argv) {
   Member_01();
   Member_02();
   Member_03();
-  Member_04();
   return 0;
 }
