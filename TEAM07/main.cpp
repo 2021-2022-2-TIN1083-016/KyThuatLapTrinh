@@ -9,7 +9,7 @@ void Member_03(){
   printf("Nguyễn Thị Bảo Ngọc");
 }
 void Member_04(){
-  
+  printf("Nguyễn Vũ Hoàng Chương") ;
 }
 
 int main(int argc, const char** argv) {

@@ -4,6 +4,7 @@ void Member_01(){
   printf("Nguyen Dac Hoang Lan");
 }
 void Member_02(){
+  printf("belp");
 }
 void Member_03(){
 }
