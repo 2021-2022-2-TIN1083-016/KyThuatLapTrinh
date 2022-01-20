@@ -5,7 +5,7 @@ void Member_01(){
 void Member_02(){
 }
 void Member_03(){
-  printf("HELLOO MEMBER 1 MEMBER 2")
+  printf("\nHELLOO MEMBER 1 MEMBER 2")
 }
 
 int main(int argc, const char** argv) {
