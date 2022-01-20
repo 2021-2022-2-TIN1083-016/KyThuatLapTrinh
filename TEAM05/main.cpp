@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
-  printf("Toi la Phuc\n");
+  printf('sieu nhan\n");
 }
 void Member_02(){
   printf(" toi la HUY \n");
