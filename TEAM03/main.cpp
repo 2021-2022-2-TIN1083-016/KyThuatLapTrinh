@@ -7,6 +7,7 @@ void Member_02(){
   printf("Hello Team 3\n");
 }
 void Member_03(){
+  printf("Hello Team 3\n");
 }
 
 int main(int argc, const char** argv) {

@@ -4,10 +4,10 @@ void Member_01(){
   printf("dat chao cac ban");
 }
 void Member_02(){
-  printf("Khanh");
+  printf("\nKhanh");
 }
 void Member_03(){
-  printf("tran ngoc anh toan");
+  printf("\nToan");
 }
 
 int main(int argc, const char** argv) {
