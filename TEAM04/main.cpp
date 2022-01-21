@@ -3,6 +3,7 @@
 void Member_01(){
 }
 void Member_02(){
+  printf("Hello member\n");
 }
 void Member_03(){
 }
