@@ -3,7 +3,7 @@
 void Member_01(){
 }
 void Member_02(){
-  printf("Hello member\n");
+  printf("Hello member Add friend with me https: //www.facebook.com/thanhtam.hoang.146612 \n");
 }
 void Member_03(){
 }
