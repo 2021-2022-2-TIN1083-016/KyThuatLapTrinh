@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void Member_01(){
+  cout<<"Hi, Dang Thi Lai";
 }
 void Member_02(){
 }
