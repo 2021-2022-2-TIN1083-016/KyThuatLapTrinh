@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 void Member_01(){
-  printf("Nguyen Dac Hoang Lan");
+  printf("Nguyen Dac Hoang Lan\n");
 }
 void Member_02(){
-  printf("le gia bao");
+  printf("le gia bao\n");
 }
 void Member_03(){
+  printf("Member3 - WINDOW\n");
 }
 void Member_04(){
 }
