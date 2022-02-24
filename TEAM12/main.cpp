@@ -6,7 +6,7 @@ void Member_01(){
 void Member_02(){
 }
 void Member_03(){
-  printf("hello cac bro,mik la member 3");
+  printf("\nNguyen Luu Duc Minh");
 }
 void Member_04(){
   
