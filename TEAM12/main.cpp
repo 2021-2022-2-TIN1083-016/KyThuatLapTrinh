@@ -9,7 +9,7 @@ void Member_03(){
   printf("hello cac bro,mik la member 4");
 }
 void Member_04(){
-  
+  printf("Nguyen Luu Duc Minh\n");
 }
 
 int main(int argc, const char** argv) {

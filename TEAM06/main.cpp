@@ -4,6 +4,7 @@ void Member_01(){
   printf("Nguyen Dac Thanh Long");
 }
 void Member_02(){
+  printf("Nguyen Duc Nhuan");
 }
 void Member_03(){
 }
