@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 void Member_01(){
-      printf("Hello member 1\n");
+      printf("Nguyen Hoan My\n");
 }
 void Member_02(){
 }
 void Member_03(){
-  printf("hello cac bro,mik la member 3");
+  printf("hello cac bro,mik la member 4");
 }
 void Member_04(){
   
