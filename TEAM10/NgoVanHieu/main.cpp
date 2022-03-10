@@ -2,7 +2,7 @@
 #include "..\..\_src\Log.h"
 
 int main(){
-  printf("WELCOME to Team 12\n");
+  printf("WELCOME C/C++\n");
   LOG_WT("Logger Warning\n");
   LOG_IT("Logger Info\n");
   LOG_ET("Logger Error\n");
