@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "..\_src\Log.h"
+#include "..\..\_src\Log.h"
 
 int main(){
   printf("WELCOME C/C++\n");
