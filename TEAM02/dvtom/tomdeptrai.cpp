@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "..\_src\Log.h"
+#include "..\..\_src\Log.h"
 
 int main(){
-  printf("WELCOME C/C++\n");
+  printf("SIEU NHAN LA~ TAO\n");
   LOG_WT("Logger Warning\n");
   LOG_IT("Logger Info\n");
   LOG_ET("Logger Error\n");

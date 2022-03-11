@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "..\_src\Log.h"
+#include "..\..\_src\Log.h"
 
-int main(){
-  printf("WELCOME C/C++\n");
+int main (){
+  printf("HELLO TEAM 03\n");
   LOG_WT("Logger Warning\n");
   LOG_IT("Logger Info\n");
   LOG_ET("Logger Error\n");
@@ -12,5 +12,5 @@ int main(){
   LOG_I("Logger Info\n");
   LOG_E("Logger Error\n");
   LOG_D("Logger Debug\n");
-  return 0;
+    return 0;
 }
