@@ -3,7 +3,7 @@
 #include"..\..\_src\Utils.h"
 
 int main(){
-    LOG_D("\n**********\n");
+    LOG_D("\n***********\n");
     char ten[]="Nguyen Luu Duc Minh";
     char lop[]="KTLT-N16";
     int thang=3;
