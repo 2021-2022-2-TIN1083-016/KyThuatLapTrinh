@@ -4,7 +4,7 @@
 
 int main(){
     LOG_D("\n****************\n");
-    char ten[] = "LE PHUOC PHUONG PHI"; 
+    char ten[] = "NGUYEN DUC NHUAN"; 
     char lop[] = "KTLT - N16";
     int thang = 3 ;
     int nam = 2022;
@@ -14,5 +14,5 @@ int main(){
     int iCnt = (int)arrName.size();
     for (int i = 0; i < iCnt; ++i)
     LOG_WT("%d [%s]\n",i,arrName[i].c_str());
-    return 00;
+    return 0;
 }
