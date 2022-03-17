@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "..\_src\log.h"
+#include "..\..\_src.\Log.h"
 
 int main(){
   printf("WELCOME TEAM 5 C/C++\n");
-  //cd + tab... .\tab
+  
   LOG_WT("Logger Warrning\n");
   LOG_IT("Logger Info\n");
   LOG_ET("Logger Eror\n");
