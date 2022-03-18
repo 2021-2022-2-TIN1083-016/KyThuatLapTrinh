@@ -4,7 +4,7 @@
 int main(){
   printf("WELCOME TEAM 5 C/C++\n");
   
-  LOG_WT("Hello\n");
+  LOG_WT("Logger Warrning\n");
   LOG_IT("Logger Info\n");
   LOG_ET("Logger Eror\n");
   LOG_DT("Logger Debug\n");
