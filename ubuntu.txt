@@ -1,4 +1,15 @@
 ubuntu Linux (From Windows)
 
+1. Chuẩn bị phần mềm
+
+- Cài phần mềm máy ảo
++ VirtualBox 
++ VMWare
++ Hyper-V
+- File ISO cài đặt Linux - ubuntu 20.4 Server 
+
+- CMD:
 ssh <user>@127.0.0.1 -p 2016
-GUI
+
+- Linux developer (g++):
+sudo apt install build-essential
