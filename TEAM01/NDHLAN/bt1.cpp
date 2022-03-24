@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "..\..\_src\Log.h" //tuong doi
-#include "..\..\_src\Utils.h"
+#include "../../_src/Log.h" //tuong doi
+#include "../../_src/Utils.h"
 
 int main(){
 LOG_D("\n****************\n");
