@@ -7,9 +7,11 @@ ubuntu Linux (From Windows)
 + VMWare
 + Hyper-V
 - File ISO cài đặt Linux - ubuntu 20.4 Server 
+** REMOTE LINUX ***
+Mapping Port 22 (SSH)
 
 - CMD:
-ssh <user>@127.0.0.1 -p 2016
+ssh <user>@127.0.0.1 -p 2216
 
 - Linux developer (g++):
 sudo apt install build-essential
