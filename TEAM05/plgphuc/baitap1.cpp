@@ -6,7 +6,7 @@ int main(){
 
 LOG_D("\n****************\n");
 
-char ten[] = "PHAN LE GIA PHUC"; 
+char ten[] = " GIA PHUC"; 
 
 char lop[] = "KTLT - N16";
 
