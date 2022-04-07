@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
-#include "tongso.cpp"
+
 
 int main(){
 
