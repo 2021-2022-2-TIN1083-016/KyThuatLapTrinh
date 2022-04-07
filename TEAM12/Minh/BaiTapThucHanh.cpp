@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-#include"..\..\_src\Log.h"
+#include"../../_src/Log.h"
 
 int Sum(string s){
 	int sum=0;
@@ -28,5 +28,5 @@ int main(){
     LOG_DT("Nhap chuoi: ");
 	getline(cin,s);
 	LOG_WT("Tong so: ");
-	cout<<Sum(s);
+	cout<<Sum(s)<<endl;
 } 
