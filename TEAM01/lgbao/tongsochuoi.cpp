@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
-#include "..\..\_src\Log.h"
-#include "..\..\_src\Utils.h"
+#include "../../_src/Log.h"
 using namespace std;
 
 int main(){
@@ -8,8 +7,8 @@ int main(){
     
     
    LOG_WT("Bai: Tong so trong xau:\n");
-   LOG_IT("Ten: Tran Ngoc Anh Toan\n");
-   LOG_IT("MSV: 21T1020760\n");
+   LOG_IT("Ten: Le Gia Bao\n");
+   LOG_IT("MSV: 21T1020009\n");
    LOG_DT("-------------\n");
    string s;
    LOG_DT("Nhap chuoi:"); getline(cin, s);
@@ -31,4 +30,3 @@ int main(){
    LOG_WT("Tong so: ");  cout<<t;
   return 0;
 }
-   
