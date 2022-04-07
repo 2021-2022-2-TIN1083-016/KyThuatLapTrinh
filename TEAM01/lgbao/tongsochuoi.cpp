@@ -27,6 +27,6 @@ int main(){
         }
     } 
 
-   LOG_WT("Tong so: ");  cout<<t;
+   LOG_WT("Tong so: \n");  cout<<t;
   return 0;
 }
