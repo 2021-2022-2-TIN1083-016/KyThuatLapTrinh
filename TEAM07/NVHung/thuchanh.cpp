@@ -3,9 +3,9 @@
 #include "..\..\_src\Utils.h"
 int main() { 
     LOG_D("\n****************************\n");
-    std::cout<<"bai: tong so xau"<<endl;
-    std::cout<<"ten: Nguyen viet Hung"<<endl;
-    std::cout<<"Msv:21t1020397"<<endl;
+    LOG_WT("bai: tong so xau");
+    LOG_IT("ten: Nguyen viet Hung");
+    LOG_IT("Msv:21t1020397");
   std::string s;
   std::getline(std::cin, s);
   int result=0;
