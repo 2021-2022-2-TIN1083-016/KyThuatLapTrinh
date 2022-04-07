@@ -5,7 +5,7 @@ int main(){
   LOG_D("Hello\n");
   char ten[] ="Le Gia Bao";
   char lop[] ="KTLT - N14";
-  int thang = 3;
+  int thang = 4;
   int nam = 2022;
   std::string name = StringFormat ("%s %s %02d %04d",ten,lop ,thang,nam);
   LOG_IT ("%s\n", name.c_str());
