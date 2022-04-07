@@ -3,10 +3,11 @@
 #include "..\..\_src\Utils.h"
 
 int main() { 
-  std::string s;
+  LOG_D("\n****************\n");
 char Bai [] = "Tong so trong xau";
   char ten [] = "Phan Van Thanh";
-char Msv [] = "21T1020077 ";
+char Msv [] = " 21T1020077 ";
+std::string s;
   std::getline(std::cin, s);
   int result=0;
   std::string t = "";
