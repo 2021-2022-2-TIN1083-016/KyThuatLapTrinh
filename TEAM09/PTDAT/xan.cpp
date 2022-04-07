@@ -4,12 +4,10 @@
 using namespace std;
 
 int main(){
-    
-    
-    
+ 
    LOG_WT("Bai: Tong so trong xau:\n");
-   LOG_IT("Ten: Tran Ngoc Anh Toan\n");
-   LOG_IT("MSV: 21T1020760\n");
+   LOG_IT("Ten: Phan tuan Dat\n");
+   LOG_IT("MSV: 21T1020284\n");
    LOG_DT("-------------\n");
    string s;
    LOG_DT("Nhap chuoi:"); getline(cin, s);
@@ -27,8 +25,10 @@ int main(){
             }
         }
     } 
-
+//  int tong =tinhtong(s);
    LOG_WT("Tong so: ");  cout<<t;
   return 0;
 }
-   
+    // cout << t;
+//     return 0;
+// }

@@ -4,9 +4,11 @@
 using namespace std;
 int main()
 {   
-
-    char ten[] = "Doan Anh Tu";
-    char msv[] = "21T1020094";
+    LOG_ET( "Bai : Tong so trong xau\n");
+    LOG_WT("Ho Va Ten: Doan Anh Tu\n");
+    LOG_IT("Ma sv: 21T1020094\n");
+    LOG_DT("-----\n");
+    LOG_ET( "Nhap chuoi: " ); 
    string a;
    getline(cin,a);
    int tich;
