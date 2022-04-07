@@ -1,13 +1,27 @@
 #include <stdio.h>
-#include "..\..\_src\Log.h"
+#include <string.h>
+#include <stdlib.h>
+#include "../../_src/Log.h"
 
 int main(){
-  
-  LOG_WT("Bai: Tong so trong xau\n");
-  LOG_IT("Ten: Du NGoc Hung\n");
-  LOG_IT("Msv: 21T1080014\n");
-  LOG_DT("-----\n");
-  LOG_DT("Nhap chuoi:5 random strings contain 234 numbers\n");
-    LOG_WT("Tong so: 239\n");
-  return 0;
+	char s[500];
+	printf("Bai: Tong so trong xau\n");
+	printf("Ten: Mai Duc Dat\n");
+	printf("Msv: 21T1020880\n");
+	printf("-----\n");
+	printf("Nhap chuoi:");
+	gets(s);
+	long long cnt = 0, sum = 0;
+	for(int i=0;i<strlen(s);i++){
+		if(s[i]>='0'&&s[i]<='9'){
+			cnt = cnt*10 + s[i] - '0';
+		}
+		else{
+			sum+= cnt;
+			cnt = 0;
+		}
+	}if(s[strlen(s)-1]>='0'&&s[strlen(s)-1]<='9'){
+		sum+=cnt;
+	}
+	printf("Tong so: %lld", sum);
 }
