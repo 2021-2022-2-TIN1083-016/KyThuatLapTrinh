@@ -7,8 +7,7 @@ int main(){
     LOG_IT("Ten: Tran Ngoc Anh Toan\n");
     LOG_IT("Ma sv: 21T1020760\n");
     LOG_DT("-----\n");
-    LOG_DT("Nhap chuoi: 5 random strings contain 234 numbers\n");
-    LOG_WT("Tong so: 239\n");
+    
     string s;
     getline(cin, s);
     string str = "";
