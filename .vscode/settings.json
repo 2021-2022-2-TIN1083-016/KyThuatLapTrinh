@@ -3,6 +3,14 @@
         "string": "cpp",
         "vector": "cpp",
         "21t1020449": "cpp",
+<<<<<<< HEAD
+        "array": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+=======
         "iostream": "cpp",
         "any": "cpp",
         "array": "cpp",
@@ -26,11 +34,18 @@
         "coroutine": "cpp",
         "csetjmp": "cpp",
         "csignal": "cpp",
+>>>>>>> 4726c66a16414c98a7f0f9fb0f01720eb8727321
         "cstdarg": "cpp",
         "cstddef": "cpp",
         "cstdint": "cpp",
         "cstdio": "cpp",
         "cstdlib": "cpp",
+<<<<<<< HEAD
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+=======
         "cstring": "cpp",
         "ctime": "cpp",
         "cuchar": "cpp",
@@ -43,6 +58,7 @@
         "set": "cpp",
         "unordered_map": "cpp",
         "unordered_set": "cpp",
+>>>>>>> 4726c66a16414c98a7f0f9fb0f01720eb8727321
         "exception": "cpp",
         "algorithm": "cpp",
         "functional": "cpp",
@@ -50,17 +66,34 @@
         "memory": "cpp",
         "memory_resource": "cpp",
         "numeric": "cpp",
+<<<<<<< HEAD
+        "random": "cpp",
+=======
         "optional": "cpp",
         "random": "cpp",
         "ratio": "cpp",
         "regex": "cpp",
         "source_location": "cpp",
         "string_view": "cpp",
+>>>>>>> 4726c66a16414c98a7f0f9fb0f01720eb8727321
         "system_error": "cpp",
         "tuple": "cpp",
         "type_traits": "cpp",
         "utility": "cpp",
         "fstream": "cpp",
+<<<<<<< HEAD
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp"
+=======
         "future": "cpp",
         "initializer_list": "cpp",
         "iomanip": "cpp",
@@ -88,5 +121,6 @@
         "valarray": "cpp",
         "variant": "cpp",
         "tongcacsotrongxau": "c"
+>>>>>>> 4726c66a16414c98a7f0f9fb0f01720eb8727321
     }
 }
