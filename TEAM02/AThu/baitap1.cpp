@@ -3,8 +3,8 @@
 #include "..\..\_src\Utils.h"
 
 int main(){
-
 LOG_D("\n****************\n");
+
 char ten[] = "TRAN THI ANH THU "; 
 char lop[] = "KTLT - N16";
 int thang = 3 ;
