@@ -1,27 +1,30 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include "../../_src/Log.h"
+#include <iostream>
+#include <string>
 
+#include "../../_src/Log.h"
+using namespace std;
+int tongsotrongxau(string a){
+  int ton =0;
+  int x=0;
+  for(int i=0;i <=a.length();i++){
+    if(a[i]>='0' && a[i] <= '9'){
+      int c=a[i];
+      x = x*10+(c-48);
+    }
+    else{
+      ton = ton + x;
+    }
+  }
+  return ton;
+}
 int main(){
-	char s[500];
-	printf("Bai: Tong so trong xau\n");
-	printf("Ten: Mai Duc Dat\n");
-	printf("Msv: 21T1020880\n");
-	printf("-----\n");
-	printf("Nhap chuoi:");
-	gets(s);
-	long long cnt = 0, sum = 0;
-	for(int i=0;i<strlen(s);i++){
-		if(s[i]>='0'&&s[i]<='9'){
-			cnt = cnt*10 + s[i] - '0';
-		}
-		else{
-			sum+= cnt;
-			cnt = 0;
-		}
-	}if(s[strlen(s)-1]>='0'&&s[strlen(s)-1]<='9'){
-		sum+=cnt;
-	}
-	printf("Tong so: %lld", sum);
+LOG_WT("Bai: Tong so trong xau\n");
+    LOG_IT("Ten: Du Ngoc HUng\n");
+    LOG_IT("Msv: 21T1080014\n");
+    LOG_DT("------\n");
+    string a;
+    LOG_DT("Nhap chuoi: ");
+	getline(cin,a);
+	LOG_WT("Tong so: ");
+	cout<<tongsotrongxau(a)<<endl;	
 }
