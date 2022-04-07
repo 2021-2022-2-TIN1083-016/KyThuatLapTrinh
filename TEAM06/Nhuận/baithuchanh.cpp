@@ -5,8 +5,8 @@
 int main() { 
   LOG_D("\n****************\n");
 char Bai [] = "Tong so trong xau";
-  char ten [] = "Phan Van Thanh";
-char Msv [] = " 21T1020077 ";
+  char ten [] = "Nguyễn Đức Nhuận";
+char Msv [] = " 21T1020145";
 std::string s;
   std::getline(std::cin, s);
   int result=0;

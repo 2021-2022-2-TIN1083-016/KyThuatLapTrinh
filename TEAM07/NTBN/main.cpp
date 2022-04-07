@@ -1,13 +1,12 @@
 #include <bits/stdc++.h> 
 #include "..\..\_src\Log.h"
 #include "..\..\_src\Utils.h"
-
 int main() { 
-  LOG_D("\n****************\n");
-char Bai [] = "Tong so trong xau";
-  char ten [] = "Phan Van Thanh";
-char Msv [] = " 21T1020077 ";
-std::string s;
+    LOG_D("\n****************************\n");
+    std::cout<<"Bai: Tong so xau"<<endl;
+    std::cout<<"Ten: Nguyen Thi Bao Ngoc"<<endl;
+    std::cout<<"Msv:21T1020533"<<endl;
+  std::string s;
   std::getline(std::cin, s);
   int result=0;
   std::string t = "";
@@ -25,4 +24,4 @@ std::string s;
   result += stoi(t);  
   std::cout << result << std::endl;
   return 0; 
-}
+} 
