@@ -8,7 +8,7 @@ int Sum(string s){
 	int x=0;
 	for(int i=0;i<=s.length();i++){
 		if(s[i]>='0' && s[i]<='9'){
-			int a=s[i];
+			int a=s[i]; 
 			x = x*10+(a-48);
 		}
 		else {
