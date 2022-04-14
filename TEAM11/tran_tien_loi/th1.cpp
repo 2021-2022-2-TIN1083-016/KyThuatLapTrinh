@@ -1,7 +1,12 @@
 #include"stdio.h"
 #include"string.h"
+<<<<<<< HEAD
 #include"../../_src/Log.h"
 #include"../../_src/Utils.h"
+=======
+#include"..\..\_src\Log.h"
+#include"..\..\_src\Utils.h"
+>>>>>>> 8053f772036cf8410fe994c4023eca98ecfe392b
 void string(char str[]){
 	int i=0,j,sum=0,n; 
 	while(i<=strlen(str)-1) {
@@ -28,4 +33,8 @@ int main(){
 	fflush(stdin);
 	fgets(str, sizeof(str), stdin);
 	string(str);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8053f772036cf8410fe994c4023eca98ecfe392b

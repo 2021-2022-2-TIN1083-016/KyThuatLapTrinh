@@ -13,5 +13,5 @@ Mapping Port 22 (SSH)
 - CMD:
 ssh <user>@127.0.0.1 -p 2216
 
-- Linux developer (g++):
-sudo apt install build-essential
+- Linux developero apt install (g++):
+sud build-essential
