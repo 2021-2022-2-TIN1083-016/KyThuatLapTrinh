@@ -8,8 +8,8 @@ int main(){
     LOG_D("\n****************\n");
 
     char bai[] = "Tong So Trong Sau";
-    char ten[] = "Phan Le Gia Phuc";
-    char masv[] = "21t1020600";
+    char ten[] = "TRAN VAN HUY";
+    char masv[] = "21t1020035";
 
 
 
@@ -37,7 +37,7 @@ int main(){
             } 
            else i++; 
 	}
-	LOG_DT("tong so: %d",tong);
+	LOG_DT("tongso: %d",tong);
     
 return 0;
 }
