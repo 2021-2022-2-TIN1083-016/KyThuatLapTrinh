@@ -29,4 +29,4 @@ int main(){
 	getline(cin,s);
 	LOG_WT("Tong so: ");
 	cout<<Sum(s)<<endl;
-} 
+}
