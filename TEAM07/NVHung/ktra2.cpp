@@ -6,11 +6,11 @@ using namespace std;
 	char str[10000];
 	int main()
 	{
-	LOG_ET( "Bai : cac ky tu trong xau\n");
-    LOG_WT("ten: Nguyen Duc Nhuan\n");
-    LOG_IT("msv: 21T1020145\n");
-    LOG_DT("-----\n");
-    LOG_ET( "Nhap xau: " );
+        LOG_WT("bai: Tan xuat cac ki tu trong xau\n");
+        LOG_IT("ten: Nguyen viet Hung\n");
+        LOG_IT("Msv:21t1020397\n");
+        LOG_DT("------------------------\n");
+        LOG_DT("nhap xau:");
   		int count;;
 			cin.getline(str, 10000);
 		for (int i = 0; i <= 9; ++i)
@@ -22,6 +22,7 @@ using namespace std;
 				  count++;
 			}
 		if (count)
+            
 			cout << (char)('0' + i) << " " << count << '\n';
 		}
 		for (int i = 0; i <= 25; ++i)
