@@ -1,20 +1,10 @@
 #include<stdio.h>
 #include<string.h>
-#include "../../_src/Log.h"
-#include "../../_src/Utils.h"
 
 int main(){
-    char bai[]= "tan suat xuat hien ki tu";
-    char ten[]= "Tran tien Loi";
-    char masv[]="21t1020484";
-    LOG_WT("bai: %s\n", bai);
-    LOG_IT("ten: %s\n", ten);
-    LOG_IT("msv: %s\n", masv);
-    LOG_DT("--------\n");
 	char s[500], s1[500];
 	int l=0;
 	fflush(stdin);
-    LOG_DT("nhap xau: ");
 	fgets(s, sizeof(s), stdin);
 	for(int i=0; i<strlen(s); i++){
 		if(s[i]>='a'&& s[i]<='z'|| s[i]>='A' && s[i]<='Z' || s[i]>='0' && s[i]<='9'){
@@ -47,6 +37,6 @@ int main(){
 				h++;
 			}
 		}
-        LOG_DT("%c   %d\n",s1[i],h);
+		printf("%c   %d\n",s1[i],h);
 	}
 }

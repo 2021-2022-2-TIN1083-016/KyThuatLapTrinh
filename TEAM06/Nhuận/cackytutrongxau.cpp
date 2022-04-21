@@ -1,18 +1,18 @@
 #include <iostream>
 #include <string.h>
-#include"..\..\_src\Log.h"
-#include"..\..\_src\Log.cpp"
-
+#include "..\..\_src\Log.h"
+#include "..\..\_src\Utils.h"
 using namespace std;
-	char str[500];
+	char str[10000];
 	int main()
 	{
-        LOG_WT("Bai: Tan xuat cac so xuat hien trong xau");
-		LOG_IT("Ten: Le Ngoc Linh");
-		LOG_IT("Mã SV: 21t1020476");
-		LOG_D("Nhap Xau");
-		int count;;
-			cin.getline(str, 500);
+	LOG_ET( "Bai : cac ky tu trong xau\n");
+    LOG_WT("ten: Nguyen Duc Nhuan\n");
+    LOG_IT("msv: 21T1020145\n");
+    LOG_DT("-----\n");
+    LOG_ET( "Nhap xau: " );
+  		int count;;
+			cin.getline(str, 10000);
 		for (int i = 0; i <= 9; ++i)
 		{	
 			count = 0;
