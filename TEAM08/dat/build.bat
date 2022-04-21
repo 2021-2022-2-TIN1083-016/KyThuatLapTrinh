@@ -1,6 +1,7 @@
 @echo off
 set SRC=..\..\_src
 
-g++ .\kt.cpp ^
+g++ .\bt1.cpp ^
     %SRC%\Log.cpp ^
--o exam.win
+    %SRC%\Utils.cpp ^
+-o bt1.exe
