@@ -1,15 +1,14 @@
 #include<stdio.h>
 #include<string.h>
 #include "../../_src/Log.h"
-#include "../../_src/Utils.h"
 
 int main(){
-    char bai[]= "tan suat xuat hien ki tu";
-    char ten[]= "tran van huy";
-    char masv[]="21t1020035";
-    LOG_WT("bai: %s\n", bai);
-    LOG_IT("ten: %s\n", ten);
-    LOG_IT("msv: %s\n", masv);
+    char Bai[]= "Tan suat cac ki tu trong xau";
+    char Ten[]= "Ngo Van Hieu";
+    char Masv[]="21T1020027";
+    LOG_WT("Bai: %s\n", Bai);
+    LOG_IT("Ten: %s\n", Ten);
+    LOG_IT("Msv: %s\n", Masv);
     LOG_DT("--------\n");
 	char s[500], s1[500];
 	int l=0;
