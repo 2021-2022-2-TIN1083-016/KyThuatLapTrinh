@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string.h>
-#include "..\..\_src\Log.h"
+#include "../../_src/Log.h"
 using namespace std;
 char str[10000];
 int main(){
