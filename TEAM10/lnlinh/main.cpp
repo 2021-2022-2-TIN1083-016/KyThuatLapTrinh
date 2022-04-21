@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    cout<<"Chao cac ban" << endl;
+    return 0;
+}
+=======
 #include <stdio.h>
 #include "..\_src\log.h"
 
@@ -16,3 +26,4 @@ int main(){
 
 return 0;
 }
+>>>>>>> 6973a31ba8d74b4133f0e2eb2363b32908ddcbcc
