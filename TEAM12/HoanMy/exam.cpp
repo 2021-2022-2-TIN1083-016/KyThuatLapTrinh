@@ -17,7 +17,7 @@ void Output (string s){
 	}
 	for(int i=0;i<256;i++){
 		if(cnt[i]!=0){
-			cout<<(char)i<<"    "<<cnt[i]<<endl;
+			LOG_WT("%c   %d\n", i, cnt[i]);
 		}
 	}
 }
