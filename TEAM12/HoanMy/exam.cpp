@@ -1,8 +1,7 @@
 #include<iostream>
 #include<string>
-using namespace std;
 #include"../../_src/Log.h"
-
+using namespace std;
 void Output (string s){
 	int cnt[256] = {0};
 	for(int i=0;i<s.length();i++){
@@ -24,12 +23,12 @@ void Output (string s){
 }
 
 int main(){
-    LOG_WT("Bai: Tan suat cac ky tu trong xau\n");
-    LOG_IT("Ten: Nguyen Hoan My\n");
-    LOG_IT("Msv: 21T1020142\n");
-    LOG_DT("-------\n");
+   LOG_WT("Bai: Tan suat cac ky tu trong xau\n");
+   LOG_IT("Ten: Nguyen Hoan My\n");
+   LOG_IT("Msv: 21T1020142\n");
+   LOG_DT("-------\n");
     string s;
-    LOG_DT("Nhap chuoi: ");
+   LOG_DT("Nhap chuoi: ");
 	getline(cin,s);
 	Output(s);
-} 
+}

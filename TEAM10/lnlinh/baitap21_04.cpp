@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string.h>
+#include"..\..\_src\Log.h"
+#include"..\..\_src\Log.cpp"
+
 using namespace std;
 	char str[500];
 	int main()
@@ -8,8 +11,7 @@ using namespace std;
 		LOG_IT("Ten: Le Ngoc Linh");
 		LOG_IT("Mã SV: 21t1020476");
 		LOG_D("Nhap Xau");
-		
-  		int count;;
+		int count;;
 			cin.getline(str, 500);
 		for (int i = 0; i <= 9; ++i)
 		{	

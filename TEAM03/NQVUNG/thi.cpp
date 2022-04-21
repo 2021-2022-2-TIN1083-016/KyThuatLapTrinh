@@ -1,6 +1,6 @@
 #include <iostream>
 #include<math.h>
-#include "..\..\_src\Log.h"
+#include "../../_src/Log.h"
 using namespace std;
 int main()
 {   
