@@ -38,10 +38,10 @@ int main(){
                     if (((s[m] <= 'z') && (s[m] >= 'a')) || ((s[m] >= '0') && (s[m] <= '9')) || ((s[m] <= 'Z') && (s[m] >= 'A')))
                     {
                         LOG_DT("   ");
-                        LOG_W(" %d",s[m]); 
-                        //cout << s[m];
-                       LOG_E(" %4d\n", d);
-                        //printf("%4d", d);
+                        LOG_W(" "); 
+                        cout << s[m];
+                       LOG_E(" ");
+                        printf("%4d\n", d);
                     }
                 }
                 else
@@ -49,10 +49,10 @@ int main(){
                     if (((s[m] <= 'z') && (s[m] >= 'a')) || ((s[m] >= '0') && (s[m] <= '9')) || ((s[m] <= 'Z') && (s[m] >= 'A')))
                     {
                         LOG_DT("   ");
-                        LOG_W(" %d",s[m]); 
-                        //cout << s[m];
-                       LOG_E(" %4d\n", d);
-                        //printf("%4d", d);
+                        LOG_W(" "); 
+                        cout << s[m];
+                       LOG_E(" ");
+                        printf("%4d\n", d);
                        // LOG_DT("%o   %h\n",s[m],d);
                     }
                 }
