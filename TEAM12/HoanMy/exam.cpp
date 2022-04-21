@@ -31,5 +31,5 @@ int main(){
     string s;
     LOG_DT("Nhap chuoi: ");
 	getline(cin,s);
-	LOG_WT("Output(s)");
+	Output(s);
 } 
