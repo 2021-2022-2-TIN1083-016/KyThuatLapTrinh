@@ -1,9 +1,27 @@
-#include"stdio.h"
-#include"string.h"
-#include"..\..\_src\Log.h"
-#include"..\..\_src\Utils.h"
-void string(char str[]){
-	int i=0,j,sum=0,n; 
+#include <stdio.h>
+#include "../../_src/Log.h"
+#include "../../_src/Utils.h"
+
+
+int main(){
+
+    LOG_D("\n****************\n");
+
+    char bai[] = "Tong So Trong Xau";
+    char ten[] = "Tran Tien Loi";
+    char masv[] = "21t1020484";
+
+
+
+    LOG_WT("bai: %s\n", bai);
+    LOG_IT("ten: %s\n", ten);
+    LOG_ET("msv: %s\n", masv);
+
+    char str[500];
+	int i=0,j,tong=0,n; 
+	fflush(stdin);
+    LOG_WT("nhap chuoi: ");
+	fgets(str, sizeof(str), stdin);
 	while(i<=strlen(str)-1) {
           if(str[i]<='9' && str[i]>='0') 
            { 
@@ -14,18 +32,12 @@ void string(char str[]){
                 n=10*n+(int)str[j]-48; 
                 j++; 
              } 
-             sum+=n;
+             tong+=n; 
              i=j; 
-            }else{
-			 i++; 
-		}
+            } 
+           else i++; 
 	}
-	printf("%d",sum);
-}
-
-int main(){
-	char str[501];
-	fflush(stdin);
-	fgets(str, sizeof(str), stdin);
-	string(str);
+	LOG_DT("tongso: %d",tong);
+    
+return 0;
 }
