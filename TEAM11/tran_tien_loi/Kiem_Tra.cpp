@@ -47,6 +47,6 @@ int main(){
 				h++;
 			}
 		}
-        LOG_WT("%c   %d\n",s1[i],h);
+        LOG_DT("%c   %d\n",s1[i],h);
 	}
 }

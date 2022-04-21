@@ -1,56 +1,27 @@
-#include <iostream>
-#include<math.h>
+#include <bits/stdc++.h> 
 #include "..\..\_src\Log.h"
-using namespace std;
-int main()
-{   
-    LOG_ET( "Bai : CAC KI TU TRONG XAU\n");
-    LOG_WT("Ho Va Ten: Nguyen Thi Bao Ngoc\n");
-    LOG_IT("Ma sv: 21T1020533\n");
-    LOG_DT("-----\n");
-    LOG_ET( "Nhap xau: " ); 
-    string s;
-    getline(cin,s);
-    char kt;
-    int dem=0;
-    for(int i='0';i<='9';i++ ){
-        kt=0;
-        dem=0;
-        for(int j=0;j<s.length();j++){
-            if(i==s[j]){
-                dem++;
-            }
-        }
-        if(dem>=1){
-            kt=i;
-            cout<<kt<<"    "<<dem<<"\n";
-        }
+#include "..\..\_src\Utils.h"
+int main() { 
+    LOG_D("\n****************************\n");
+    std::cout<<"Bai: Tong so xau"<<endl;
+    std::cout<<"Ten: Nguyen Thi Bao Ngoc"<<endl;
+    std::cout<<"Msv:21T1020533"<<endl;
+  std::string s;
+  std::getline(std::cin, s);
+  int result=0;
+  std::string t = "";
+    for(char ch : s) { 
+    if(ch >= '0' && ch <= '9') {
+        t += ch;
     }
-    for(int i='A';i<='Z';i++ ){
-        kt=0;
-        dem=0;
-        for(int j=0;j<s.length();j++){
-            if(i==s[j]){
-                dem++;
-            }
-        }
-        if(dem>=1){
-            kt=i;
-            cout<<kt<<"    "<<dem<<"\n";
-        }
-    }
-    for(int i='a';i<='z';i++ ){
-        kt=0;
-        dem=0;
-        for(int j=0;j<s.length();j++){
-            if(i==s[j]){
-                dem++;
-            }
-        }
-        if(dem>=1){
-            kt=i;
-            cout<<kt<<"    "<<dem<<"\n";
-        }
-    }
-
-}  
+    else { 
+        if (t.length() > 0)
+      result += stoi(t);  
+      t = ""; 
+    } 
+  }
+  if(t.length() > 0)
+  result += stoi(t);  
+  std::cout << result << std::endl;
+  return 0; 
+} 
