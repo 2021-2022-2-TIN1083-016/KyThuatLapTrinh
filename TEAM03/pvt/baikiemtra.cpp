@@ -24,13 +24,13 @@ void Output (string s){
 }
 
 int main(){
-    LOG_WT("Bai: Tan suat cac ky tu trong xau\n");
-    LOG_IT("Ten: Nguyen Hoan My\n");
-    LOG_IT("Msv: 21T1020142\n");
-    LOG_DT("-------\n");
+   LOG_WT("Bai: Tan suat cac ky tu trong xau\n");
+   LOG_IT("Ten: Phan Van Thanh\n");
+   LOG_IT("Msv: 21T1020077\n");
+   LOG_DT("-------\n");
     string s;
-    LOG_DT("Nhap chuoi: ");
+   LOG_DT("Nhap chuoi: ");
+   
 	getline(cin,s);
-	LOG_WT("");
 	Output(s);
-} 
+}
