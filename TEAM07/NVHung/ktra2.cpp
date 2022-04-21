@@ -22,8 +22,8 @@ using namespace std;
 				  count++;
 			}
 		if (count)
-            
-			cout << (char)('0' + i) << " " << count << '\n';
+            LOG_IT("%c %d\n",'0'+i, count);
+			
 		}
 		for (int i = 0; i <= 25; ++i)
 		{
@@ -34,7 +34,9 @@ using namespace std;
 				count++;
 			}
 		if (count)
-			cout << (char)('A' + i) << " " << count << '\n';
+            LOG_IT("%c %d\n",'A'+i, count);
+            
+			
 		}
 		for (int i = 0; i <= 25; ++i)
 		{
@@ -45,7 +47,7 @@ using namespace std;
 				count++;
 			}
 		if (count)
-			cout << (char)('a' + i) << " " << count << '\n';
+            LOG_IT("%c %d\n",'a'+i, count);
 		}
 	return 0;
 }
