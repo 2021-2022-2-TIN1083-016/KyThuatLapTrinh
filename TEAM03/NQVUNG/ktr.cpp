@@ -9,7 +9,7 @@ int main(){
     char masv[]="21t1020201";
     LOG_WT("bai: %s\n", bai);
     LOG_IT("ten: %s\n", ten);
-    LOG_IT("msv: %s\n", masv);
+    LOG_IT("msv:  %s\n", masv);
     LOG_DT("--------\n");
 	char s[500], s1[500];
 	int l=0;
