@@ -2,6 +2,7 @@
 #include<string.h>
 #include "../../_src/Log.h"
 #include "../../_src/Utils.h"
+using namespace std;
 
 int main(){
     char bai[]= "tan suat xuat hien ki tu";
