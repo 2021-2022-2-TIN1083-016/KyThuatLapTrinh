@@ -5,8 +5,8 @@
 
 int main(){
     char bai[]= "tan suat xuat hien ki tu";
-    char ten[]= "tran van huy";
-    char masv[]="21t1020035";
+    char ten[]= "Nguyen Quang Vung";
+    char masv[]="21t1020201";
     LOG_WT("bai: %s\n", bai);
     LOG_IT("ten: %s\n", ten);
     LOG_IT("msv: %s\n", masv);

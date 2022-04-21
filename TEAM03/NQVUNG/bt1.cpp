@@ -1,30 +1,18 @@
-#include <bits/stdc++.h>
-#include "../../_src/Log.h"
-using namespace std;
-#define ll long long
-string s;
-ll ans( string &s ){
-    ll res = 0;
-    for( int i = 0; i < s.size(); i++ ){
-        ll ans = 0;
-        while( isdigit(s[i]) ){
-            ans = ans * 10 + s[i] - '0';
-            i++;
-        }
-        res += ans;
-    }
-    return res;
-}
-void Output(){
-    LOG_ET("Bai : Tong so trong xau\n");
-    LOG_WT("Ho Va Ten: Nguyen Quang Vung\n");
-    LOG_IT("Ma sv: 21T1020201\n");
-    LOG_DT("-----\n");
-    LOG_ET("Nhap chuoi: "); getline( cin, s );
-    LOG_ET("Tong so: %lld\n", ans(s));
-}
+#include <stdio.h>
+#include "..\..\_src\Log.h"
+#include "..\..\_src\Utils.h"
+
 int main(){
-    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-    Output();
-    return 0;
-}
+    LOG_D("\n****************\n");
+    char ten[] = "Nguyen Quang Vung";
+    char lop[] = "KTLT - N16";
+    int thang = 3; 
+    int nam = 2022;
+    std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang,nam);
+    LOG_IT("%s\n",name.c_str());
+    std::vector<std::string> arrName= SplitString(name.c_str()," ");
+    int iCnt = (int)arrName.size();
+    for (int i = 0; i < iCnt; ++i){
+    LOG_WT("%d [%s]\n",i,arrName[i].c_str());
+    }  
+} 
