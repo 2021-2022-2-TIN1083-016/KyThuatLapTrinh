@@ -45,6 +45,5 @@ int main(){
 		LOG_WT("");
 		cout<<s3[i];
 		cout<<"    "<<count<<endl;
-		//LOG_WT("%c     %d\n",s3[i],count);
 	}
 }
