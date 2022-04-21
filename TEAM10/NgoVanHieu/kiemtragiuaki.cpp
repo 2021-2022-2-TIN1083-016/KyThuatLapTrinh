@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 #include "../../_src/Log.h"
-#include "../../_src/Utils.h"
 
 int main(){
     char Bai[]= "Tan suat cac ki tu trong xau";
