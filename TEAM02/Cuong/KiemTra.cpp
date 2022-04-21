@@ -1,10 +1,16 @@
 #include<iostream>
-#include<string>
+#include<string.h>
 using namespace std;
 #include"../../_src/Log.h"
+
 int main(){
+    LOG_WT("Bai: Tan suat cac ki tu trong xau\n");
+    LOG_IT("Ten: Nguyen Xuan Cuong\n");
+    LOG_IT("Msv: 21T1020279\n");
+    LOG_DT("------\n");
 	char s1[500],s2[500],s3[500];
 	int n1=0,n2=0;
+    LOG_DT("Nhap xau: ");
 	cin.getline(s1,500);
 	//chuyen s1 qua s2(xoa khoang trang)
 	for(int i=0;i<strlen(s1);i++){
@@ -36,18 +42,8 @@ int main(){
 				count++;
 			}
 		}
-		LOG_WT("%c    %d\n",s3[i],count);
+		LOG_WT("");
+		cout<<s3[i];
+		cout<<"    "<<count<<endl;
 	}
 }
-
-
-int main(){
-    LOG_WT("Bai: Tan suat cac ky tu trong xau\n");
-    LOG_IT("Ten: Nguyen Xuan Cuong\n");
-    LOG_IT("Msv: 21T1020279\n");
-    LOG_DT("------\n");
-    string s;
-    LOG_DT("Nhap xau: ");
-	cin.getline(cin,s);
-	cout<<Sum(s)<<endl;
-} 
