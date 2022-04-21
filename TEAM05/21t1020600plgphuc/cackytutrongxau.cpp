@@ -8,6 +8,12 @@
 
 int main()
 {
+    LOG_ET( "Bai : tan suat cac ky tu trong xau\n");
+    LOG_WT("Ho Va Ten: Phan Le Gia Phuc\n");
+    LOG_IT("Ma sv: 21t1020600\n");
+    LOG_DT("-----\n");
+    LOG_ET( "Nhap xau: " );
+
     char s[500];
     int c[123] = {0};
       gets(s);
