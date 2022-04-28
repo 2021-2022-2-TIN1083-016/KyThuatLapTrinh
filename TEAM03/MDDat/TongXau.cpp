@@ -17,8 +17,8 @@ ll ans( string &s ){
 }
 void Output(){
     LOG_ET("Bai : Tong so trong xau\n");
-    LOG_WT("Ho Va Ten: Mai Duc Dat\n");
-    LOG_IT("Ma sv: 21T1020880\n");
+    LOG_WT("Ho Va Ten: Le Phuoc Quang\n");
+    LOG_IT("Ma sv: 21T1020065\n");
     LOG_DT("-----\n");
     LOG_ET("Nhap chuoi: "); getline( cin, s );
     LOG_ET("Tong so: %lld\n", ans(s));

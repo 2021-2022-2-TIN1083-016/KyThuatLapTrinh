@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
-#include "..\..\_src\Log.h"
-#include "..\..\_src\Utils.h"
+#include "../../_src/Log.h"
+#include "../../_src/Utils.h"
 
 int main(){
     char bai[]= "tan suat xuat hien ki tu";
@@ -47,6 +47,6 @@ int main(){
 				h++;
 			}
 		}
-        LOG_DT("%c   %d\n",s1[i],h);
+        LOG_WT("%c   %d\n",s1[i],h);
 	}
 }
