@@ -8,7 +8,7 @@ int main(){
   LOG_IT("***** START APP*****\n"); 
   curl_global_init(CURL_GLOBAL_DEFAULT);
 
-  std::string szZone = "Asia/Ho_Chi_Minh";
+  std::string szZone = "Asia/Ho_Nang";
   std::string url = "https://www.timeapi.io/api/Time/current/zone?timeZone=" + szZone;
   std::string szContent;
   CHttpClient clt;
