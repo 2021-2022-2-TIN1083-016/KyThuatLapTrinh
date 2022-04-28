@@ -3,8 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/ssp"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
