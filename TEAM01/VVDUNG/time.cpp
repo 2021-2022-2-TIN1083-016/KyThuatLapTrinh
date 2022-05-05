@@ -8,8 +8,8 @@ int main(){
   LOG_IT("***** START APP*****\n"); 
   curl_global_init(CURL_GLOBAL_DEFAULT);
 
-  std::string szZone = "london";
-  std::string url = "http://api.weatherapi.com/v1/current.json?key=&q=London&aqi=no" + szZone;
+  std::string szZone = "japan";
+  std::string url = "http://api.weatherapi.com/v1/search.json?key=&q=japan" + szZone;
   std::string szContent;
   CHttpClient clt;
   if (!clt.SendRequest(url.c_str(),szContent)){
