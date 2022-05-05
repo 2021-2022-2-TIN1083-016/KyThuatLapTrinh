@@ -20,6 +20,16 @@ int main(){
     LOG_W("%s\n",szContent.c_str());
   }
 
+  url = "http://api.weatherapi.com/v1/current.json?key=14a6df09971049a885565748220505&q=ho chi minh&aqi=no" ;
+   CHttpClient clt;
+  if (!clt.SendRequest(url.c_str(),szContent)){
+    LOG_ET("[%s] SendRequest()\n",szZone.c_str());
+  }
+  else{
+    LOG_DT("GET %s\n",url.c_str());
+    LOG_W("%s\n",szContent.c_str());
+  }
+
   curl_global_cleanup();
   LOG_D("\n***** EXIT APP*****\n");  
   return 0;
