@@ -1,6 +1,6 @@
 @echo off
 set SRC=..\..\_src
-set LIB=D:\msys64\mingw64\lib\
+set LIB=C:\rtools40\mingw64\lib\
 
 g++ .\time.cpp ^
     %SRC%\Log.cpp ^
