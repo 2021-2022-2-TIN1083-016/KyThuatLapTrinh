@@ -1,29 +1,39 @@
-#include <iostream>
-#include <cctype>
-#include <vector>
 
+#include <bits/stdc++.h>
 using namespace std;
-
-
-int main()
+string xoa_chan(string s)
 {
-	string a; cin >> a;
-	vector<char> v;
-	for(int k = 0 ; k < a.length(); k++)
-	{
-		if(isdigit(a[k]))
-		{
-			if(a[k] == '1' || a[k] == '3'|| a[k] == '5' || a[k] == '7' || a[k] == '9' || a[k] == '-1' ||a[k] == '-3'|| a[k] == '-5' || a[k] == '-7' || a[k] == '-9' )
-			{
-				v.push_back(a[k]);
-				
-			}
-		}
-	}
-	for(int i = 0 ; i < v.size() ; i++)
-	{
-		cout << v[i] ;
-	}
-	
-	return 0;
+    string res = "";
+    if(s[0] == '-')
+    {
+        res += '-';
+        for(int i = 1 ; i < s.size() ; i++)
+        {
+            if((s[i] - '0') % 2 != 0)
+            {
+                res += s[i];
+            }
+        }
+        if(res == "-")
+        {
+            res = "0";
+           
+        }
+    }
+    else
+    {
+        for(int i = 0 ; i < s.size() ; i++)
+        {
+            if((s[i] - '0') % 2 != 0)
+            {
+                res += s[i];
+            }
+        }
+        if(res == "")
+        {
+            res = "0";
+            
+        }
+    }
+    return res;
 }
