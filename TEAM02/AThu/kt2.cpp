@@ -1,39 +1,41 @@
-
+#include<iostream>
+#include<string.h>
 #include <bits/stdc++.h>
 using namespace std;
-string xoa_chan(string s)
-{
-    string res = "";
-    if(s[0] == '-')
+
+int main() {
+	string n;
+    cin >> n;
+    string s = "";
+    if(n[0] == '-')
     {
-        res += '-';
-        for(int i = 1 ; i < s.size() ; i++)
+        s+="-";
+        for(int i = 1 ; i < n.size() ; i++)
         {
-            if((s[i] - '0') % 2 != 0)
+            if((n[i] - '0') % 2 != 0)
             {
-                res += s[i];
+                s += n[i];
             }
-        }
-        if(res == "-")
-        {
-            res = "0";
-           
         }
     }
     else
     {
-        for(int i = 0 ; i < s.size() ; i++)
+        for(int i = 0 ; i < n.size() ; i++)
         {
-            if((s[i] - '0') % 2 != 0)
+            if((n[i] - '0') % 2 != 0)
             {
-                res += s[i];
+                s += n[i];
             }
         }
-        if(res == "")
-        {
-            res = "0";
-            
-        }
     }
-    return res;
+    
+    if(s=="")
+    {
+        cout << 0 << endl;
+    }
+    else if(s == "-")
+    {
+        cout << 0 << endl;
+    }
+    else cout << s << endl;
 }
