@@ -1,7 +1,11 @@
 @echo off
-set SRC=../../_src
+set SRC=..\..\_src
+set LIB=C:\rtools40\mingw64\lib\
 
-g++ bt1.cpp ^
-    %SRC%/Log.cpp ^
-    %SRC%/Utils.cpp ^
--o bt1.exe
+g++ .\time.cpp ^
+    %SRC%\Log.cpp ^
+    %SRC%\Utils.cpp ^
+    %SRC%\HttpClient.cpp ^
+-DCURL_STATICLIB ^
+-o t.exe ^
+-static -L%LIB% ^
