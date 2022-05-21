@@ -29,4 +29,4 @@ int main(){
 	getline(cin,s);
 	LOG_WT("Tong so: ");
 	cout<<Sum(s)<<endl;
-} 
+} //g++ thuchanh1.cpp ../../_src/Log.cpp -o chaythu.linux
