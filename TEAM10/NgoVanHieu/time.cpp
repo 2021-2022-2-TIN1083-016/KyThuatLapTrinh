@@ -32,4 +32,4 @@ int main(){
   curl_global_cleanup();
   LOG_D("\n***** EXIT APP*****\n");  
   return 0;
-}// g++ .\time.cpp ..\..\_src\Log.cpp ..\..\_src\HttpClient.cpp -o time.exe -lcurl
+}
