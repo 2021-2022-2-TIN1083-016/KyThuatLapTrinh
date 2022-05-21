@@ -5,15 +5,14 @@
 
 using namespace std ;
 
-int main()
-{
+int main(){
     LOG_D("\n****************\n");
-    char BAI[] = "MA HOA VAN BAN";
-    char TEN[] = "NGUYỄN THỊ BẢO NGỌC";
-    char MA SINH VIEN[] = "21T1020533";
-    LOG_WT("bai: %s\n", BAI);
-    LOG_IT("ten: %s\n", TEN);
-    LOG_ET("msv: %s\n", MA SINH VIEN);
+    char bai[] = "Ma hoa van ban";
+    char ten[] = "Nguyen Vu Hoang Chuong";
+    char masv[] = "21T1020267";
+    LOG_WT("bai: %s\n", bai);
+    LOG_IT("ten: %s\n", ten);
+    LOG_ET("msv: %s\n", masv);
     string s ;
     cout << "Xau Q:" ;
 	cin >> s ;
@@ -29,3 +28,9 @@ int main()
 		cout << s[i] ;
 	}	
 }
+
+
+
+
+
+
