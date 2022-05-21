@@ -18,5 +18,7 @@ int main(){
     cin>>n;
         reverse(s.begin(),s.begin()+n);
         reverse(s.begin()+n,s.end());
-    LOG_DT("Xau S:"); cout<<s;
+    LOG_DT("Xau S:");
+    for(int i=0;i < s.length();i++) 
+        LOG_E("%c",s[i]);
 }
