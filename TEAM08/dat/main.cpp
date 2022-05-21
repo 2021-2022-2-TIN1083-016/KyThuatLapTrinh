@@ -3,10 +3,10 @@
 using namespace std;
 int main (){
  cout<<"hello";
-  LOG_WT("Logger Warning\n");
-  LOG_IT("Logger Info\n");
-  LOG_ET("Logger Error\n");
-  LOG_DT("Logger Debug\n");
+  LOG_WT("Logger Warning\n");    vang
+  LOG_IT("Logger Info\n");        xanh
+  LOG_ET("Logger Error\n");         do
+  LOG_DT("Logger Debug\n");           trang  
   LOG_W("Logger Warning\n");
   LOG_I("Logger Info\n");
   LOG_E("Logger Error\n");
