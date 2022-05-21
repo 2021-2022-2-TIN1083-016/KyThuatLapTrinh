@@ -4,7 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 using namespace std;
-#include"../../_src/Log.h"
+#include"..\..\_src\Log.h"
 using namespace std;
 string daoxau( string s, int n){
 	int l = s.length() - n + 1;
