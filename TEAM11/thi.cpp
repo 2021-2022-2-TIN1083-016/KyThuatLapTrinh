@@ -9,8 +9,8 @@ int main(){
     LOG_D("\n****************\n");
 
     char bai[] = "Ma hoa van ban";
-    char ten[] = "Doan Anh Tu";
-    char masv[] = "21t1020094";
+    char ten[] = "Phan Thi Ngoc Sang";
+    char masv[] = "21t1020156";
 
     LOG_WT("bai: %s\n", bai);
     LOG_IT("ten: %s\n", ten);
