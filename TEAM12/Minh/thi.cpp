@@ -21,4 +21,5 @@ int main(){
 	for(int i=s3.length()-1;i>=0;i--){
 		cout<<s3[i];
 	}
+	cout<<endl;
 }
