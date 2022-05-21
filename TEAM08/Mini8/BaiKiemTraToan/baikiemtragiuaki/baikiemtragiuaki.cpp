@@ -14,7 +14,7 @@ int main(){
 	cin>>x;	
 	string secondnumber=firstnumber.substr(0,x);
 	string thirdnumber=firstnumber.substr(x);
-    LOG_DT("Xau S: ");
+    LOG_DT("Xau S: "); LOG_E("");
 	for(int i=secondnumber.length()-1;i>=0;i--){
 		cout<<secondnumber[i];
 	}
