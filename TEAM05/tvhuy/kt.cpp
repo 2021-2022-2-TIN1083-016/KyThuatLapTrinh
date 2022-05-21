@@ -1,4 +1,5 @@
-
+#include <bits/stdc++.h>
+using namespace std;
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -26,7 +27,7 @@ int main(){
 	int k;
 	fflush(stdin);
     LOG_DT("xau Q: ");
-	gets(s);
+	fgets(s, sizeof(s), stdin);
     LOG_DT("khoa: ");
 	scanf("%d",&k);
 	ktr(s,k);
