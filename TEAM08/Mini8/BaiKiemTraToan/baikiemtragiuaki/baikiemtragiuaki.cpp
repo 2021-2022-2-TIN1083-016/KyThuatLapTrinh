@@ -8,13 +8,13 @@ int main(){
     LOG_IT("Msv: 21tT1020760\n");
     string firstnumber;
 	int x;
-    LOG_DT("Xau Q:"); LOG_D("");
+    LOG_DT("Xau Q: "); LOG_D("");
 	getline(cin,firstnumber);
-    LOG_DT("Khoa K:"); LOG_D("");
+    LOG_DT("Khoa K: "); LOG_D("");
 	cin>>x;	
 	string secondnumber=firstnumber.substr(0,x);
 	string thirdnumber=firstnumber.substr(x);
-    LOG_DT("Xau S: ");
+    LOG_DT("Xau S: "); LOG_E("");
 	for(int i=secondnumber.length()-1;i>=0;i--){
 		cout<<secondnumber[i];
 	}
