@@ -1,18 +1,26 @@
-#include <iostream>
-#include <algorithm>
-#define all(x) (x).begin(), (x).end()
-using namespace std;
+#include<iostream>
+#include<string.h>
 
-int main() {
-    string s, s1, s2; int k;
+using namespace std ;
+
+int main(){
     
-    getline(cin, s);
-    cin >> k;
+    char baiA[] = "Ma hoa van ban";
+    char tenB[] = "Nguyen Dac Thanh Long";
+    char masvC[] = "21T1020043";
     
-    s1 = s.substr(0, k);
-    s2 = s.substr(k, s.size() - k);
-    reverse(all(s1)); reverse(all(s2));
-    
-    cout << s1 + s2;
-    return 0; 
+    string s ;
+    cout << "Xau L:" ;
+	cin >> s ;
+    cout << "Khoa M:" ;
+	int k ; 
+	cin >> k ;
+    cout << "Xau X:" ;
+	for ( int i = k - 1 ; i >= 0 ; i-- ){
+		cout << s[i] ;
+	}
+
+	for ( int i = s.length() - 1 ; i >= k  ; i-- ){
+		cout << s[i] ;
+	}	
 }
